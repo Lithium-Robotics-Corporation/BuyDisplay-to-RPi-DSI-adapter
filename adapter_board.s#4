@@ -1784,6 +1784,9 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="DSI" width="0.127" drill="0">
+<clearance class="0" value="0.254"/>
+</class>
 </classes>
 <parts>
 <part name="J1" library="SamacSys_Parts" deviceset="62684-401100AHLF" device=""/>
@@ -2155,7 +2158,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="55.88" y1="-134.62" x2="5.08" y2="-134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DSI_D0_N" class="0">
+<net name="DSI_D0_N" class="1">
 <segment>
 <wire x1="35.56" y1="-5.08" x2="111.76" y2="-5.08" width="0.1524" layer="91"/>
 <label x="71.12" y="-5.08" size="1.778" layer="95"/>
@@ -2165,7 +2168,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="33.02" y1="-7.62" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DSI_D0_P" class="0">
+<net name="DSI_D0_P" class="1">
 <segment>
 <wire x1="111.76" y1="-7.62" x2="35.56" y2="-7.62" width="0.1524" layer="91"/>
 <label x="71.12" y="-7.62" size="1.778" layer="95"/>
@@ -2175,7 +2178,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="33.02" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DSI_D1_N" class="0">
+<net name="DSI_D1_N" class="1">
 <segment>
 <wire x1="111.76" y1="-12.7" x2="35.56" y2="-12.7" width="0.1524" layer="91"/>
 <label x="71.12" y="-12.7" size="1.778" layer="95"/>
@@ -2185,7 +2188,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="33.02" y1="-15.24" x2="5.08" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DSI_D1_P" class="0">
+<net name="DSI_D1_P" class="1">
 <segment>
 <wire x1="35.56" y1="-15.24" x2="111.76" y2="-15.24" width="0.1524" layer="91"/>
 <label x="71.12" y="-15.24" size="1.778" layer="95"/>
@@ -2195,7 +2198,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="33.02" y1="-12.7" x2="35.56" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DSI_D2_N" class="0">
+<net name="DSI_D2_N" class="1">
 <segment>
 <wire x1="35.56" y1="-27.94" x2="111.76" y2="-27.94" width="0.1524" layer="91"/>
 <label x="71.12" y="-27.94" size="1.778" layer="95"/>
@@ -2205,7 +2208,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="33.02" y1="-30.48" x2="5.08" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DSI_D2_P" class="0">
+<net name="DSI_D2_P" class="1">
 <segment>
 <wire x1="111.76" y1="-30.48" x2="35.56" y2="-30.48" width="0.1524" layer="91"/>
 <label x="71.12" y="-30.48" size="1.778" layer="95"/>
@@ -2215,7 +2218,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="33.02" y1="-27.94" x2="35.56" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DSI_D3_N" class="0">
+<net name="DSI_D3_N" class="1">
 <segment>
 <wire x1="111.76" y1="-35.56" x2="35.56" y2="-35.56" width="0.1524" layer="91"/>
 <label x="71.12" y="-35.56" size="1.778" layer="95"/>
@@ -2225,7 +2228,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="33.02" y1="-38.1" x2="5.08" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DSI_D3_P" class="0">
+<net name="DSI_D3_P" class="1">
 <segment>
 <wire x1="35.56" y1="-38.1" x2="111.76" y2="-38.1" width="0.1524" layer="91"/>
 <label x="71.12" y="-38.1" size="1.778" layer="95"/>
@@ -2235,7 +2238,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="33.02" y1="-35.56" x2="35.56" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DSI_CLK_N" class="0">
+<net name="DSI_CLK_N" class="1">
 <segment>
 <wire x1="111.76" y1="-20.32" x2="35.56" y2="-20.32" width="0.1524" layer="91"/>
 <label x="71.12" y="-20.32" size="1.778" layer="95"/>
@@ -2245,7 +2248,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="33.02" y1="-22.86" x2="5.08" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DSI_CLK_P" class="0">
+<net name="DSI_CLK_P" class="1">
 <segment>
 <wire x1="35.56" y1="-22.86" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
 <label x="71.12" y="-22.86" size="1.778" layer="95"/>

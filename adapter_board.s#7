@@ -249,10 +249,6 @@
 <wire x1="8.1" y1="1.75" x2="8.1" y2="-2.8" width="0.2" layer="51"/>
 <wire x1="8.1" y1="-2.8" x2="-8.1" y2="-2.8" width="0.2" layer="51"/>
 <wire x1="-8.1" y1="-2.8" x2="-8.1" y2="1.75" width="0.2" layer="51"/>
-<wire x1="-9.35" y1="3.8" x2="9.35" y2="3.8" width="0.1" layer="51"/>
-<wire x1="9.35" y1="3.8" x2="9.35" y2="-3.8" width="0.1" layer="51"/>
-<wire x1="9.35" y1="-3.8" x2="-9.35" y2="-3.8" width="0.1" layer="51"/>
-<wire x1="-9.35" y1="-3.8" x2="-9.35" y2="3.8" width="0.1" layer="51"/>
 <wire x1="-8.1" y1="-0.79" x2="-8.1" y2="-2.8" width="0.1" layer="21"/>
 <wire x1="-8.1" y1="-2.8" x2="8.1" y2="-2.8" width="0.1" layer="21"/>
 <wire x1="8.1" y1="-2.8" x2="8.1" y2="-0.79" width="0.1" layer="21"/>
@@ -1845,6 +1841,8 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="S21" library="Module_Supplies" deviceset="VSS" device=""/>
 <part name="TP1" library="microbuilder" deviceset="TESTPOINT" device="ROUND1MM"/>
 <part name="TP2" library="microbuilder" deviceset="TESTPOINT" device="ROUND1MM"/>
+<part name="TP3" library="microbuilder" deviceset="TESTPOINT" device="ROUND1MM"/>
+<part name="TP4" library="microbuilder" deviceset="TESTPOINT" device="ROUND1MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -2431,6 +2429,14 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <attribute name="NAME" x="43.18" y="-2.54" size="1.27" layer="95"/>
 <attribute name="VALUE" x="43.18" y="-4.445" size="1.27" layer="95"/>
 </instance>
+<instance part="TP3" gate="G$1" x="43.18" y="-50.8" smashed="yes">
+<attribute name="NAME" x="40.64" y="-43.18" size="1.27" layer="95"/>
+<attribute name="VALUE" x="40.64" y="-45.085" size="1.27" layer="95"/>
+</instance>
+<instance part="TP4" gate="G$1" x="48.26" y="-50.8" smashed="yes">
+<attribute name="NAME" x="45.72" y="-43.18" size="1.27" layer="95"/>
+<attribute name="VALUE" x="45.72" y="-45.085" size="1.27" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2482,6 +2488,12 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="15.24" y1="-50.8" x2="7.62" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-40.64" x2="15.24" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="15.24" y="-50.8"/>
+<pinref part="TP4" gate="G$1" pin="P$1"/>
+<wire x1="48.26" y1="-50.8" x2="43.18" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="-50.8"/>
+<pinref part="TP3" gate="G$1" pin="P$1"/>
+<wire x1="43.18" y1="-50.8" x2="25.4" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="43.18" y="-50.8"/>
 </segment>
 <segment>
 <pinref part="S19" gate="G$1" pin="VSS"/>
