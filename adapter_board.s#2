@@ -290,23 +290,23 @@
 <wire x1="-0.75" y1="-2.2" x2="-0.75" y2="-2.2" width="0.1" layer="21"/>
 <wire x1="-0.75" y1="-2.2" x2="-0.75" y2="-2.1" width="0.1" layer="21" curve="180"/>
 </package>
-<package name="1235ASH100MP3">
-<description>&lt;b&gt;1818 (4745) T=1.8mm&lt;/b&gt;&lt;br&gt;
+<package name="SDR06032R5ML">
+<description>&lt;b&gt;SDR0603-2R5ML-3&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-2.15" y="0" dx="2.2" dy="1" layer="1" rot="R90"/>
-<smd name="2" x="2.15" y="0" dx="2.2" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="0" y="-1.925" dx="5.8" dy="2.15" layer="1"/>
+<smd name="2" x="0" y="1.925" dx="5.8" dy="2.15" layer="1"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.325" y1="2.7" x2="3.325" y2="2.7" width="0.05" layer="51"/>
-<wire x1="3.325" y1="2.7" x2="3.325" y2="-2.7" width="0.05" layer="51"/>
-<wire x1="3.325" y1="-2.7" x2="-3.325" y2="-2.7" width="0.05" layer="51"/>
-<wire x1="-3.325" y1="-2.7" x2="-3.325" y2="2.7" width="0.05" layer="51"/>
-<wire x1="-2.45" y1="2.35" x2="2.45" y2="2.35" width="0.1" layer="51"/>
-<wire x1="2.45" y1="2.35" x2="2.45" y2="-2.35" width="0.1" layer="51"/>
-<wire x1="2.45" y1="-2.35" x2="-2.45" y2="-2.35" width="0.1" layer="51"/>
-<wire x1="-2.45" y1="-2.35" x2="-2.45" y2="2.35" width="0.1" layer="51"/>
-<wire x1="2.45" y1="2.35" x2="-2.45" y2="2.35" width="0.2" layer="21"/>
-<wire x1="-2.45" y1="-2.35" x2="2.45" y2="-2.35" width="0.2" layer="21"/>
+<wire x1="-2.9" y1="2.9" x2="2.9" y2="2.9" width="0.2" layer="51"/>
+<wire x1="2.9" y1="2.9" x2="2.9" y2="-2.9" width="0.2" layer="51"/>
+<wire x1="2.9" y1="-2.9" x2="-2.9" y2="-2.9" width="0.2" layer="51"/>
+<wire x1="-2.9" y1="-2.9" x2="-2.9" y2="2.9" width="0.2" layer="51"/>
+<wire x1="-3.9" y1="4" x2="3.9" y2="4" width="0.1" layer="51"/>
+<wire x1="3.9" y1="4" x2="3.9" y2="-4" width="0.1" layer="51"/>
+<wire x1="3.9" y1="-4" x2="-3.9" y2="-4" width="0.1" layer="51"/>
+<wire x1="-3.9" y1="-4" x2="-3.9" y2="4" width="0.1" layer="51"/>
+<wire x1="-2.9" y1="0.4" x2="-2.9" y2="-0.4" width="0.1" layer="21"/>
+<wire x1="2.9" y1="0.4" x2="2.9" y2="-0.4" width="0.1" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -437,7 +437,7 @@
 <pin name="NC_3" x="38.1" y="-20.32" length="middle" rot="R180"/>
 <pin name="NC_4" x="38.1" y="-22.86" length="middle" rot="R180"/>
 </symbol>
-<symbol name="1235AS-H-2R4M=P3">
+<symbol name="SDR0603-2R5ML">
 <wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
@@ -636,26 +636,26 @@ Source: &lt;a href="https://www.arrow.com/en/products/lt8336hvpbf/analog-devices
 </device>
 </devices>
 </deviceset>
-<deviceset name="1235AS-H-2R4M=P3" prefix="L">
-<description>&lt;b&gt;DEM4518C Series Inductor 2.4uH +/-20% 1818 (4745)&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/1235AS-H-2R4M=P3.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="SDR0603-2R5ML" prefix="L">
+<description>&lt;b&gt;Fixed Inductors 2.5uH 20% SMD 0603&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-7/DSA-121824.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="1235AS-H-2R4M=P3" x="0" y="0"/>
+<gate name="G$1" symbol="SDR0603-2R5ML" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1235ASH100MP3">
+<device name="" package="SDR06032R5ML">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="DEM4518C Series Inductor 2.4uH +/-20% 1818 (4745)" constant="no"/>
-<attribute name="HEIGHT" value="2mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1235AS-H-2R4M=P3" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="81-1235AS-H-2R4MP3" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-1235AS-H-2R4MP3" constant="no"/>
+<attribute name="DESCRIPTION" value="Fixed Inductors 2.5uH 20% SMD 0603" constant="no"/>
+<attribute name="HEIGHT" value="3.9mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SDR0603-2R5ML" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-SDR0603-2R5ML" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bourns/SDR0603-2R5ML?qs=xrpI9KL%2FXvtC70ZWV5ML9w%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1827,7 +1827,6 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="S18" library="Module_Supplies" deviceset="VSS" device=""/>
 <part name="C5" library="standardparts" deviceset="CAPACITOR" device=".0805" value="10uF_25V"/>
 <part name="C6" library="standardparts" deviceset="CAPACITOR" device=".0805" value="10uF_25V"/>
-<part name="L1" library="SamacSys_Parts" deviceset="1235AS-H-2R4M=P3" device=""/>
 <part name="S19" library="Module_Supplies" deviceset="VSS" device=""/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="S20" library="Module_Supplies" deviceset="VSS" device=""/>
@@ -1838,6 +1837,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="TP2" library="microbuilder" deviceset="TESTPOINT" device="ROUND1MM"/>
 <part name="TP3" library="microbuilder" deviceset="TESTPOINT" device="ROUND1MM"/>
 <part name="TP4" library="microbuilder" deviceset="TESTPOINT" device="ROUND1MM"/>
+<part name="L1" library="SamacSys_Parts" deviceset="SDR0603-2R5ML" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2402,10 +2402,6 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <attribute name="NAME" x="27.305" y="-36.83" size="1.016" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="27.305" y="-39.37" size="1.016" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="-12.7" y="33.02" smashed="yes">
-<attribute name="NAME" x="-3.81" y="39.37" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-11.43" y="36.83" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="S19" gate="G$1" x="43.18" y="2.54" smashed="yes">
 <attribute name="VALUE" x="40.64" y="0" size="0.8128" layer="95"/>
 </instance>
@@ -2431,6 +2427,10 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <instance part="TP4" gate="G$1" x="48.26" y="-50.8" smashed="yes">
 <attribute name="NAME" x="45.72" y="-43.18" size="1.27" layer="95"/>
 <attribute name="VALUE" x="45.72" y="-45.085" size="1.27" layer="95"/>
+</instance>
+<instance part="L1" gate="G$1" x="-12.7" y="33.02" smashed="yes">
+<attribute name="NAME" x="-3.81" y="39.37" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-11.43" y="36.83" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -2535,10 +2535,10 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="25.4" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="-12.7" y1="33.02" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="33.02" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-15.24" y="25.4"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VCC_5V0" class="0">
@@ -2550,7 +2550,6 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="22.86" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="10.16" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
 <junction x="22.86" y="10.16"/>
-<pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="10.16" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="33.02" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -2562,6 +2561,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="53.34" y1="10.16" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
 <label x="55.88" y="25.4" size="1.778" layer="95"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$7" class="0">
