@@ -301,10 +301,6 @@
 <wire x1="2.9" y1="2.9" x2="2.9" y2="-2.9" width="0.2" layer="51"/>
 <wire x1="2.9" y1="-2.9" x2="-2.9" y2="-2.9" width="0.2" layer="51"/>
 <wire x1="-2.9" y1="-2.9" x2="-2.9" y2="2.9" width="0.2" layer="51"/>
-<wire x1="-3.9" y1="4" x2="3.9" y2="4" width="0.1" layer="51"/>
-<wire x1="3.9" y1="4" x2="3.9" y2="-4" width="0.1" layer="51"/>
-<wire x1="3.9" y1="-4" x2="-3.9" y2="-4" width="0.1" layer="51"/>
-<wire x1="-3.9" y1="-4" x2="-3.9" y2="4" width="0.1" layer="51"/>
 <wire x1="-2.9" y1="0.4" x2="-2.9" y2="-0.4" width="0.1" layer="21"/>
 <wire x1="2.9" y1="0.4" x2="2.9" y2="-0.4" width="0.1" layer="21"/>
 </package>
@@ -1785,7 +1781,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="DSI" width="0.127" drill="0">
-<clearance class="1" value="0.127"/>
+<clearance class="1" value="0.1524"/>
 </class>
 </classes>
 <parts>
