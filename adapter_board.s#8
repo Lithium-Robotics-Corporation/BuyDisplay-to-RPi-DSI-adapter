@@ -1784,8 +1784,8 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="DSI" width="0.1016" drill="0">
-<clearance class="0" value="0.2032"/>
+<class number="1" name="DSI" width="0.127" drill="0">
+<clearance class="0" value="0.254"/>
 </class>
 </classes>
 <parts>

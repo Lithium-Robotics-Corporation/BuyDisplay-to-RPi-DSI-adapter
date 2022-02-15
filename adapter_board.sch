@@ -1816,7 +1816,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="C4" library="standardparts" deviceset="CAPACITOR" device=".0603" value="10uF"/>
 <part name="R4" library="standardparts" deviceset="RESISTOR" device=".0603" value="10k"/>
 <part name="R5" library="standardparts" deviceset="RESISTOR" device=".0603" value="1k"/>
-<part name="D1" library="standardparts" deviceset="LED" device=".0603" value="Green"/>
+<part name="D1" library="standardparts" deviceset="LED" device=".0603" value="Red"/>
 <part name="R6" library="standardparts" deviceset="RESISTOR" device=".0603" value="170k"/>
 <part name="R7" library="standardparts" deviceset="RESISTOR" device=".0603" value="10k"/>
 <part name="S18" library="Module_Supplies" deviceset="VSS" device=""/>
